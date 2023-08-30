@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F47434B2A9FE2780053537D /* SongClipperPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47434A2A9FE2780053537D /* SongClipperPOCApp.swift */; };
+		1F47434D2A9FE2780053537D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47434C2A9FE2780053537D /* ContentView.swift */; };
+		1F47434F2A9FE27B0053537D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F47434E2A9FE27B0053537D /* Assets.xcassets */; };
+		1F4743532A9FE27B0053537D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4743522A9FE27B0053537D /* Preview Assets.xcassets */; };
+		1F47435D2A9FE27B0053537D /* SongClipperPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47435C2A9FE27B0053537D /* SongClipperPOCTests.swift */; };
+		1F4743672A9FE27B0053537D /* SongClipperPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4743662A9FE27B0053537D /* SongClipperPOCUITests.swift */; };
+		1F4743692A9FE27B0053537D /* SongClipperPOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4743682A9FE27B0053537D /* SongClipperPOCUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4743592A9FE27B0053537D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F47433F2A9FE2780053537D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4743462A9FE2780053537D;
+			remoteInfo = SongClipperPOC;
+		};
+		1F4743632A9FE27B0053537D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F47433F2A9FE2780053537D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4743462A9FE2780053537D;
+			remoteInfo = SongClipperPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4743472A9FE2780053537D /* SongClipperPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongClipperPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F47434A2A9FE2780053537D /* SongClipperPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClipperPOCApp.swift; sourceTree = "<group>"; };
+		1F47434C2A9FE2780053537D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F47434E2A9FE27B0053537D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4743502A9FE27B0053537D /* SongClipperPOC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SongClipperPOC.entitlements; sourceTree = "<group>"; };
+		1F4743522A9FE27B0053537D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F4743582A9FE27B0053537D /* SongClipperPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongClipperPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F47435C2A9FE27B0053537D /* SongClipperPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClipperPOCTests.swift; sourceTree = "<group>"; };
+		1F4743622A9FE27B0053537D /* SongClipperPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongClipperPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4743662A9FE27B0053537D /* SongClipperPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClipperPOCUITests.swift; sourceTree = "<group>"; };
+		1F4743682A9FE27B0053537D /* SongClipperPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClipperPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4743442A9FE2780053537D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4743552A9FE27B0053537D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47435F2A9FE27B0053537D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F47433E2A9FE2780053537D = {
+			isa = PBXGroup;
+			children = (
+				1F4743492A9FE2780053537D /* SongClipperPOC */,
+				1F47435B2A9FE27B0053537D /* SongClipperPOCTests */,
+				1F4743652A9FE27B0053537D /* SongClipperPOCUITests */,
+				1F4743482A9FE2780053537D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4743482A9FE2780053537D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4743472A9FE2780053537D /* SongClipperPOC.app */,
+				1F4743582A9FE27B0053537D /* SongClipperPOCTests.xctest */,
+				1F4743622A9FE27B0053537D /* SongClipperPOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4743492A9FE2780053537D /* SongClipperPOC */ = {
+			isa = PBXGroup;
+			children = (
+				1F47434A2A9FE2780053537D /* SongClipperPOCApp.swift */,
+				1F47434C2A9FE2780053537D /* ContentView.swift */,
+				1F47434E2A9FE27B0053537D /* Assets.xcassets */,
+				1F4743502A9FE27B0053537D /* SongClipperPOC.entitlements */,
+				1F4743512A9FE27B0053537D /* Preview Content */,
+			);
+			path = SongClipperPOC;
+			sourceTree = "<group>";
+		};
+		1F4743512A9FE27B0053537D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F4743522A9FE27B0053537D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F47435B2A9FE27B0053537D /* SongClipperPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F47435C2A9FE27B0053537D /* SongClipperPOCTests.swift */,
+			);
+			path = SongClipperPOCTests;
+			sourceTree = "<group>";
+		};
+		1F4743652A9FE27B0053537D /* SongClipperPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4743662A9FE27B0053537D /* SongClipperPOCUITests.swift */,
+				1F4743682A9FE27B0053537D /* SongClipperPOCUITestsLaunchTests.swift */,
+			);
+			path = SongClipperPOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4743462A9FE2780053537D /* SongClipperPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F47436C2A9FE27B0053537D /* Build configuration list for PBXNativeTarget "SongClipperPOC" */;
+			buildPhases = (
+				1F4743432A9FE2780053537D /* Sources */,
+				1F4743442A9FE2780053537D /* Frameworks */,
+				1F4743452A9FE2780053537D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongClipperPOC;
+			productName = SongClipperPOC;
+			productReference = 1F4743472A9FE2780053537D /* SongClipperPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F4743572A9FE27B0053537D /* SongClipperPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F47436F2A9FE27B0053537D /* Build configuration list for PBXNativeTarget "SongClipperPOCTests" */;
+			buildPhases = (
+				1F4743542A9FE27B0053537D /* Sources */,
+				1F4743552A9FE27B0053537D /* Frameworks */,
+				1F4743562A9FE27B0053537D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F47435A2A9FE27B0053537D /* PBXTargetDependency */,
+			);
+			name = SongClipperPOCTests;
+			productName = SongClipperPOCTests;
+			productReference = 1F4743582A9FE27B0053537D /* SongClipperPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F4743612A9FE27B0053537D /* SongClipperPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4743722A9FE27B0053537D /* Build configuration list for PBXNativeTarget "SongClipperPOCUITests" */;
+			buildPhases = (
+				1F47435E2A9FE27B0053537D /* Sources */,
+				1F47435F2A9FE27B0053537D /* Frameworks */,
+				1F4743602A9FE27B0053537D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4743642A9FE27B0053537D /* PBXTargetDependency */,
+			);
+			name = SongClipperPOCUITests;
+			productName = SongClipperPOCUITests;
+			productReference = 1F4743622A9FE27B0053537D /* SongClipperPOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F47433F2A9FE2780053537D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1F4743462A9FE2780053537D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1F4743572A9FE27B0053537D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1F4743462A9FE2780053537D;
+					};
+					1F4743612A9FE27B0053537D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1F4743462A9FE2780053537D;
+					};
+				};
+			};
+			buildConfigurationList = 1F4743422A9FE2780053537D /* Build configuration list for PBXProject "SongClipperPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F47433E2A9FE2780053537D;
+			productRefGroup = 1F4743482A9FE2780053537D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4743462A9FE2780053537D /* SongClipperPOC */,
+				1F4743572A9FE27B0053537D /* SongClipperPOCTests */,
+				1F4743612A9FE27B0053537D /* SongClipperPOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4743452A9FE2780053537D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4743532A9FE27B0053537D /* Preview Assets.xcassets in Resources */,
+				1F47434F2A9FE27B0053537D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4743562A9FE27B0053537D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4743602A9FE27B0053537D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4743432A9FE2780053537D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47434D2A9FE2780053537D /* ContentView.swift in Sources */,
+				1F47434B2A9FE2780053537D /* SongClipperPOCApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4743542A9FE27B0053537D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47435D2A9FE27B0053537D /* SongClipperPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47435E2A9FE27B0053537D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4743692A9FE27B0053537D /* SongClipperPOCUITestsLaunchTests.swift in Sources */,
+				1F4743672A9FE27B0053537D /* SongClipperPOCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F47435A2A9FE27B0053537D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4743462A9FE2780053537D /* SongClipperPOC */;
+			targetProxy = 1F4743592A9FE27B0053537D /* PBXContainerItemProxy */;
+		};
+		1F4743642A9FE27B0053537D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4743462A9FE2780053537D /* SongClipperPOC */;
+			targetProxy = 1F4743632A9FE27B0053537D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F47436A2A9FE27B0053537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F47436B2A9FE27B0053537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1F47436D2A9FE27B0053537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SongClipperPOC/SongClipperPOC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SongClipperPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = EWH85CQYYJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F47436E2A9FE27B0053537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SongClipperPOC/SongClipperPOC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SongClipperPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = EWH85CQYYJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F4743702A9FE27B0053537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EWH85CQYYJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongClipperPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SongClipperPOC";
+			};
+			name = Debug;
+		};
+		1F4743712A9FE27B0053537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EWH85CQYYJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongClipperPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SongClipperPOC";
+			};
+			name = Release;
+		};
+		1F4743732A9FE27B0053537D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EWH85CQYYJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SongClipperPOC;
+			};
+			name = Debug;
+		};
+		1F4743742A9FE27B0053537D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EWH85CQYYJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SongClipperPOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4743422A9FE2780053537D /* Build configuration list for PBXProject "SongClipperPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47436A2A9FE27B0053537D /* Debug */,
+				1F47436B2A9FE27B0053537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F47436C2A9FE27B0053537D /* Build configuration list for PBXNativeTarget "SongClipperPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47436D2A9FE27B0053537D /* Debug */,
+				1F47436E2A9FE27B0053537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F47436F2A9FE27B0053537D /* Build configuration list for PBXNativeTarget "SongClipperPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4743702A9FE27B0053537D /* Debug */,
+				1F4743712A9FE27B0053537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4743722A9FE27B0053537D /* Build configuration list for PBXNativeTarget "SongClipperPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4743732A9FE27B0053537D /* Debug */,
+				1F4743742A9FE27B0053537D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F47433F2A9FE2780053537D /* Project object */;
+}
