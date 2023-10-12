@@ -45,6 +45,7 @@
 		1F4743622A9FE27B0053537D /* SongClipperPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongClipperPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4743662A9FE27B0053537D /* SongClipperPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClipperPOCUITests.swift; sourceTree = "<group>"; };
 		1F4743682A9FE27B0053537D /* SongClipperPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongClipperPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F4743752A9FE39D0053537D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		1F4743492A9FE2780053537D /* SongClipperPOC */ = {
 			isa = PBXGroup;
 			children = (
+				1F4743752A9FE39D0053537D /* Info.plist */,
 				1F47434A2A9FE2780053537D /* SongClipperPOCApp.swift */,
 				1F47434C2A9FE2780053537D /* ContentView.swift */,
 				1F47434E2A9FE27B0053537D /* Assets.xcassets */,
@@ -424,6 +426,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SongClipperPOC/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "I need your stuff to play your stuff in order to play some songs and stuff";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -442,7 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,6 +466,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SongClipperPOC/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "I need your stuff to play your stuff in order to play some songs and stuff";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -480,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.offensively-bad.SongClipperPOC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
